@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Étape 6 : exposer le port utilisé par Express
-EXPOSE 4000
+EXPOSE 5001
 
 # Étape 7 : démarrer l'application
 CMD ["node", "index.js"]
